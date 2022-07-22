@@ -15,6 +15,44 @@ a {
   box-sizing: border-box;
 }
 
+.container {
+  display: flex;
+}
+
+.name-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+  background: black;
+  color: white;
+  writing-mode: vertical-rl;
+}
+
+.name-text {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.task-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #f6f4ee;
+}
+
+.task-menu {
+  font-family: 'Josefin Sans';
+  font-size: 3rem;
+  font-weight: 200;
+  text-decoration: none;
+  list-style: none;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
