@@ -2,8 +2,6 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -13,6 +11,7 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .container {
@@ -24,7 +23,6 @@ a {
   align-items: center;
   justify-content: center;
   height: 100%;
-  font-family: 'Josefin Sans', sans-serif;
   font-weight: 200;
   background: black;
   color: white;
@@ -32,7 +30,6 @@ a {
 }
 
 .name-text {
-  font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   font-size: 2rem;
   line-height: 3rem;
@@ -40,17 +37,40 @@ a {
 
 .task-area {
   display: flex;
+  margin: 0 5px;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
   background: #f6f4ee;
 }
 
 .task-menu {
-  font-family: 'Josefin Sans';
   font-size: 3rem;
   font-weight: 200;
   text-decoration: none;
   list-style: none;
+}
+
+.main-container {
+  font-size: 1.5rem;
+  font-weight: 400;
+  width: 100%;
+}
+
+main h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+main h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 200;
+  font-size: 1.6rem;
 }
 
 @media (prefers-color-scheme: dark) {
