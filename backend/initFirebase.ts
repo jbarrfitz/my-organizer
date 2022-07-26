@@ -1,5 +1,5 @@
-import { FirebaseOptions, getApp, initializeApp } from 'firebase/app';
-import { getAuth } from 'firebase/auth';
+import { FirebaseOptions, getApp, initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
 
 const config: FirebaseOptions = {
   apiKey: process.env.API_KEY,
